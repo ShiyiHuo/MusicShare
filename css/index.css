@@ -1,0 +1,39 @@
+/* website name on top left corner */
+.site-name{
+	color: white;
+	font-family: 'Pacifico', Helvetica, sans-serif;
+	text-shadow: 3px 3px 0px rgba(0,0,0,0.1), 7px 7px 0px rgba(0,0,0,0.05);
+	font-size: 40px;
+}
+
+/* tabs in navigation bar */
+.home-nav-tab {
+	color: white;
+	font-family: 'Josefin Sans', Helvetica, sans-serif;
+	font-weight: bolder;
+	font-size: 22px;
+	margin-left: 30px;
+}
+
+/* search box and search button on home page */
+.search-box {
+	font-family: 'Verdana', Helvetica, sans-serif;
+	margin-top: 10px;
+	border-radius: 4px;
+}
+
+.search-button {
+	font-weight: bold;
+	font-family: 'Verdana', Helvetica, sans-serif;
+	margin-right: 20px;
+	margin-top: 10px;
+	margin-left: 8px;
+	background-color: #b0c4de;
+	border-radius: 4px;
+}
+
+.search-button:hover {
+    background-color: #f0ffff;
+    color: #ffa07a;
+    border-color: white;
+}
