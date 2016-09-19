@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Foundation for Sites Template
 
 **Please open all issues with this template on the main [Foundation for Sites](https://github.com/zurb/foundation-sites/issues) repo.**
@@ -46,3 +47,7 @@ bower install
 ```
 
 Finally, run `npm start` to run the Sass compiler. It will re-run every time you save a Sass file.
+=======
+# MusicShare
+>>>>>>> 3f6b20aad7e824490506c7c2628e994123442b23
+# MusicShare
