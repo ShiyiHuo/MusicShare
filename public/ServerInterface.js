@@ -70,7 +70,7 @@ class ServerInterface{
      * @param index {number} the index of the task to remove.
      * @param cb {function} to call when the request comes back. 
      */
-    removeTask(id, cb){
+    removeSong(id, cb){
         
         this._sendData(
             {id : id},
@@ -95,8 +95,8 @@ class ServerInterface{
      *          1) an error paramenter, will be null if everything was OK.
      *          2) an object that represents the response from the server.
      */
-     getSingerList(callback) {
-        console.log("sending GET to /singer");
+     getSingers(callback) {
+        console.log("sending GET to /singerlist");
 
         var xhr = new XMLHttpRequest();
         xhr.open("GET", "/data", true);
@@ -116,8 +116,8 @@ class ServerInterface{
     }
 
 
-    getLanguageList(callback) {
-        console.log("sending GET to /language");
+    getLanguages(callback) {
+        console.log("sending GET to /languagelist");
 
         var xhr = new XMLHttpRequest();
         xhr.open("GET", "/data", true);
@@ -137,8 +137,8 @@ class ServerInterface{
     }
 
 
-    getStyleList(callback) {
-        console.log("sending GET to /style");
+    getStyles(callback) {
+        console.log("sending GET to /stylelist");
 
         var xhr = new XMLHttpRequest();
         xhr.open("GET", "/data", true);
@@ -159,7 +159,7 @@ class ServerInterface{
 
 
     getSong(callback) {
-        console.log("sending GET to /style");
+        console.log("sending GET to /getSong");
 
         var xhr = new XMLHttpRequest();
         xhr.open("GET", "/data", true);
