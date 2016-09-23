@@ -1,0 +1,104 @@
+
+/* website name on top left corner */
+.site-name{
+	font-family: 'Pacifico', Helvetica, sans-serif;
+	text-shadow: 3px 3px 0px rgba(0,0,0,0.1), 7px 7px 0px rgba(0,0,0,0.05);
+	font-size: 40px;
+}
+
+.sitename-anchor {
+	color: white;
+}
+
+.sitename-anchor:hover {
+	color: #ffff33;
+}
+
+
+/* tabs in navigation bar */
+.home-nav-tab {
+	color: white;
+	/*font-family: 'Josefin Sans', Helvetica, sans-serif;*/
+	font-family: quicksand-regular;
+	font-weight: bold;
+	font-size: 22px;
+	letter-spacing: -1.5px;
+	margin-left: 30px;
+}
+
+.home-nav-tab:hover {
+	color: #ffff33;
+}
+
+
+/* search box and search button on home page */
+.top-bar-right {
+	margin-top: 21px;
+}
+
+.search-box {
+	/*font-family: 'Verdana', Helvetica, sans-serif;*/
+	font-family: quicksand-regular;
+	border-radius: 4px;
+	box-shadow: 3px 3px 0px rgba(0,0,0,0.1);
+}
+
+.search-button {
+	font-weight: bold;
+	/*font-family: 'Verdana', Helvetica, sans-serif;*/
+	font-family: quicksand-regular;
+	margin-right: 20px;
+	margin-left: 8px;
+	background-color: #b0c4de;
+	border-radius: 4px;
+	box-shadow: 3px 3px 0px rgba(0,0,0,0.1);
+}
+
+.search-button:hover {
+    background-color: #f0ffff;
+    color: #ffa07a;
+    border-color: white;
+}
+
+
+/* cards */
+.card {
+	box-shadow: 0.5px 0px 13px 0px rgba(50, 50, 50, 0.49);
+}
+
+.card-body {
+	background-color: white;
+	padding: 20px;
+}
+
+.song-title {
+	font-family: quicksand-bold;
+	font-size: 25px;
+}
+
+.song-singer {
+	font-family: quicksand-regular;
+	font-size: 15px;
+}
+
+
+/* fonts */
+@font-face {
+    font-family: quicksand-regular;
+    src: url(./fonts/Quicksand-Regular.otf);
+}
+
+@font-face {
+    font-family: quicksand-light;
+    src: url(./fonts/Quicksand-Light.otf);
+}
+
+@font-face {
+    font-family: quicksand-bold;
+    src: url(./fonts/Quicksand-Bold.otf);
+}
+
+
+
+
+
